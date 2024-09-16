@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigneuTravell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .Logo {
+            height: 50px;
+            cursor: pointer;
+        }
+        main {
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        a {
+            text-decoration: none;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>BigneuTravell</h1>
+            <img src="img/logo.jpg" alt="Logo" class="Logo" onclick="location.href='index.html'">
+        </div>
+    </header>
+
+    <main>
+        <h2 style="text-align: center; margin-bottom: 20px;">Ofertas de Pacotes</h2>
+
+        <table>
+            <tr>
+                <th>Período da Promoção</th>
+                <th>Destino</th>
+                <th>Descrição do Pacote</th>
+                <th>Imagem</th>
+                <th>Preço (R$)</th>
+                <th>Acesse</th>
+            </tr>
+            <tr>
+                <td>09/09/2024<br>15/09/2024</td>
+                <td>Barcelona</td>
+                <td>Passagem Aérea São Paulo - Barcelona Ida e volta<br>4 noites de hospedagem e translados de chegada e saída</td>
+                <td><img src="img/barcelona.jpg" alt="Barcelona"></td>
+                <td>2.345,00</td>
+                <td><a href="https://www.tiqets.com/pt/atracoes-barcelona-c66342/?utm_account=154002118&utm_source=bing&utm_medium=cpc&utm_campaign=710579489&utm_content=1257842625472206&msclkid=0bd3e9bbe8d21aa594178f64d53d3b55&utm_term=visitare%20barcellona"><button>Comprar</button>👈</a></td>
+            </tr>
+            <tr>
+                <td>09/09/2024<br>20/09/2024</td>
+                <td>Rio de Janeiro</td>
+                <td>Passagem Aérea São Paulo - Rio de Janeiro Ida e volta<br>3 noites de hospedagem e translados de chegada e saída</td>
+                <td><img src="img/RiodeJaneiro.jpg" alt="Rio de Janeiro"></td>
+                <td>1.745,00</td>
+                <td><a href="https://www.decolar.com/atracoes-turisticas/rio/atracoes-rio+de+janeiro?adjust_adgroup=166003283413&adjust_campaign=21594331402&adjust_t=esobv7_ffxd4s_3fh53i&adjust_creative=709823025480&adjust_tracker_limit=1000000000&gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8qIdb_Nz97N5cILQenMZjf2vsTRpTmRFMHED55kTigFmFuhdF9LiRRoCWfkQAvD_BwE&mktdata=accountid%3D6737371911%26pr%3DZ%26cc%3DBR%26adjust_t%3Desobv7_ffxd4s_3fh53i%26kw%3D%26c%3D709823025480%26mt%3D%26n%3Dg%26p%3D%26ap%3D%26d%3Dc%26dm%3D%26targetid%3Ddsa-1584904357334%26campaignid%3D21594331402%26adgroupid%3D166003283413%26ExperimentId%3D%26locationid%3D9074295%26adjust_adgroup%3D166003283413%26adjust_campaign%3D21594331402%26adjust_creative%3D709823025480%26key%3DUT81AK9JAFEGJ4D69OVO6J673E%26adjust_tracker_limit%3D1000000000%26gclid%3DCjwKCAjwufq2BhAmEiwAnZqw8qIdb_Nz97N5cILQenMZjf2vsTRpTmRFMHED55kTigFmFuhdF9LiRRoCWfkQAvD_BwE%26id%3D20240909184441132959989845994286%26trackeame_user_id%3D12AD76A3BC8D17169913337424cdcc129-f85f-4db5-a94b-6877d8c9c092262458043"><button>Comprar</button>👈</a></td>
+            </tr>
+            <tr>
+                <td>09/09/2024<br>20/09/2024</td>
+                <td>Bogotá</td>
+                <td>Passagem Aérea São Paulo - Bogotá Ida e volta<br>5 noites de hospedagem e translados de chegada e saída</td>
+                <td><img src="img/bogotá.jpg" alt="Bogotá"></td>
+                <td>1.825,00</td>
+                <td><a href="https://www.viagensecaminhos.com/bogota/"><button>Comprar</button>👈</a></td>
+            </tr>
+            <tr>
+                <td>09/09/2024<br>21/09/2024</td>
+                <td>Leverkusen</td>
+                <td>Passagem Aérea São Paulo - Leverkusen Ida e volta<br>4 noites de hospedagem e translados de chegada e saída</td>
+                <td><img src="img/leverkuen-city.jpg" alt="Leverkusen"></td>
+                <td>2.235,00</td>
+                <td><a href="https://www.tripadvisor.com.br/Attractions-g187379-Activities-Leverkusen_North_Rhine_Westphalia.html"><button>Comprar</button>👈</a></td>
+            </tr>
+            <tr>
+                <td>09/09/2024<br>25/09/2024</td>
+                <td>Madrid</td>
+                <td>Passagem Aérea São Paulo - Madrid Ida e volta<br>6 noites de hospedagem e translados de chegada e saída</td>
+                <td><img src="img/madrid.jpg" alt="Madrid"></td>
+                <td>2.825,00</td>
+                <td><a href="https://www.esmadrid.com/pt"><button>Comprar</button>👈</a></td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados a Vinicius</
